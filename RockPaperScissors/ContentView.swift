@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     let moves : [String] = ["rock", "paper", "scissors"]
     let winsAgainst : [String] = ["scissors", "rock", "paper"]
-    let maxGamesAllowed : Int = 3
+    let maxGamesAllowed : Int = 10
     @State private var currentCPUChoice = Int.random(in: 0...2)
     @State private var opponentWins : Int = 0
     @State private var currentWins : Int = 0
